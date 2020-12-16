@@ -1,0 +1,61 @@
+/* CSS files add styling rules to your content */
+
+body {
+    font-family: helvetica, arial, sans-serif;
+    margin: 2em;
+  }
+  
+  .container {
+    font-style: bold;
+    color: #2d333d;
+    text-align: center;
+  }
+  
+  input {
+    margin:15px;
+    width: 50%;
+    padding: 10px 0;
+    border:none;
+    box-shadow:2px 2px 15px 4px rgba(0,0,0,0.20);
+    border-radius:10px;
+    text-align: center;
+  }
+  
+  textarea {
+    font-family: helvetica;
+    font-size: medium;
+    width:50%;
+    resize: vertical;
+    padding:15px;
+    border-radius:15px;
+    border:0;
+    box-shadow:2px 2px 15px 4px rgba(0,0,0,0.20);
+    height:200px;
+  }
+  
+  .textarea2 {
+    margin:10px;
+    width:50%;
+    resize: vertical;
+    padding:15px;
+    border-radius:15px;
+    border:0;
+    box-shadow:2px 2px 15px 4px rgba(0,0,0,0.20);
+    height:15px;
+  }
+  
+  button {
+    /* remove default behavior */
+    appearance:none;
+    -webkit-appearance:none;
+    /* usual styles */
+    margin:30px;
+    padding:10px;
+    border:none;
+    background-color:#3F51B5;
+    color:#fff;
+    font-weight:600;
+    border-radius:30px;
+    width:10%;
+  
+  }
